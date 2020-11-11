@@ -1,13 +1,17 @@
 <template>
   <div id="app">
     <h1>我是第一次修改</h1>
+    <Head />
   </div>
 </template>
 
 <script>
+import Head from "./components/Head";
 export default {
   name: "App",
-  components: {},
+  components: {
+    Head,
+  },
 };
 </script>
 
